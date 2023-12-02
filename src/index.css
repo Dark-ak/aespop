@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "suisseRegular";
+    src: url("./assets/fonts/SuisseIntl-Regular.ttf");
+}
+
+@font-face{
+    font-family: "suisseMedium";
+    src: url("./assets/fonts/SuisseIntl-Medium.ttf");
+}
+
+@font-face{
+    font-family: "zapf";
+    src: url("./assets/fonts/ZapfHumanist.otf");
+}
+
+.indicator{
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #666;
+
+}
+
+.indicator.active{
+    background-color: black;
+}
