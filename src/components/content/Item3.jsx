@@ -46,7 +46,7 @@ const Item3 = () => {
                 ssr={true}
             >
                 <div>
-                    <img src={bleed} alt="" draggable={false} className="w-[100px]" />
+                    <img src={bleed} alt="" draggable={false} className="" />
                     <p></p>
                 </div>
 
